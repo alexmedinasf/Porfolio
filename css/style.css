@@ -7,21 +7,20 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.name{
+.name {
   background-color: #3c3a39;
   border: none;
   color: #fff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   top: 48px;
   position: absolute;
-
 }
 
-.menu{
+.menu {
   background-color: #3c3a39;
   border: none;
   position: absolute;
