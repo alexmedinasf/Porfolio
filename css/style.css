@@ -46,8 +46,8 @@ img {
   background-image: url("../images/background@2x.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: auto 250px;
-  height: 600px;
+  background-size: auto 370px;
+  height: 620px;
   color: #fff;
   flex-direction: column;
   justify-content: center;
