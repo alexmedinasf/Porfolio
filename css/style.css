@@ -8,27 +8,27 @@ p {
 }
 
 .name{
-	background-color: #3c3a39;
-	border: none;
-	color: #fff;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 24px;
-	top: 48px;
-	position: absolute;
+  background-color: #3c3a39;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  top: 48px;
+  position: absolute;
 
 }
 
 .menu{
-	background-color: #3c3a39;
-	border: none;
-	position: absolute;
-	width: 30px;
-	height: 20px;
-	right: 24px;
-	top: 48px;
+  background-color: #3c3a39;
+  border: none;
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  right: 24px;
+  top: 48px;
 }
 
 img {
@@ -50,10 +50,6 @@ img {
   margin: 0 35px;
   flex: 1;
   display: flex;
-}
-
-.menu {
-  justify-content: flex-end;
 }
 
 .intro {
