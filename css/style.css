@@ -194,6 +194,7 @@ img {
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
+  font-size: 32px;
 }
 
 .about-list {
@@ -286,3 +287,8 @@ button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
+li {
+  list-style-type: none;
+  font-size: 22px;
+  margin-top:32px;
