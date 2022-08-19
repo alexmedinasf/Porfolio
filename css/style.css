@@ -225,7 +225,7 @@ img {
   align-items: center;
 }
 
-.resubut{
+.resubut {
   background-color: #ff6b00;
   color: #fff;
   height: 48px;
@@ -237,14 +237,13 @@ img {
   padding: 12px;
   gap: 10px;
   width: 161px;
-  height: 48px;
 }
 
-.abmedesc{
+.abmedesc {
   color: #fff;
 }
 
-.meabout{ background-color: #1c1a19; }
+.meabout { background-color: #1c1a19; }
 
 .featbut {
   background-color: #ff6b00;
@@ -256,7 +255,7 @@ img {
   width: 124px;
 }
 
-.myrecent{
+.myrecent {
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -265,7 +264,7 @@ img {
   line-height: 52px;
 }
 
-.multipost{
+.multipost {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -273,16 +272,17 @@ img {
   line-height: 24px;
 }
 
-button:hover{
+button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
 }
 
-button:active{
+button:active {
   background-color: #e05304;
 }
-button:disabled{
+
+button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
 }
