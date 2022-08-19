@@ -181,6 +181,8 @@ img {
 }
 
 .abmehead h2 {
+  margin-top: 120px;
+  margin-bottom: 24px;
   color: var(--color-accent);
   font-size: 72px;
   font-family: 'Crete Round', serif;
