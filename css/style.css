@@ -21,6 +21,12 @@ h3 {
   font-weight: 390;
 }
 
+li {
+  list-style-type: none;
+  font-size: 22px;
+  margin-top:32px;
+}
+
 .name {
   background-color: #3c3a39;
   border: none;
@@ -118,9 +124,9 @@ img {
 }
 
 .languages li {
- background-color: rgba(255, 255, 255, 0.24);
- padding: 10px 12px;
- font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  font-weight: 500;
 }
 
 .fs {
@@ -136,34 +142,34 @@ img {
 }
 
 .project {
- display: flex;
- flex-direction: column;
- justify-content: flex-end;
- background: none;
- min-height: 386px;
- line-height: 24px;
- background-image: url("../images/projectbackground.png");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: none;
+  min-height: 386px;
+  line-height: 24px;
+  background-image: url("../images/projectbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 .project h2 {
   line-height: 44px;
-	margin-bottom: 12px;
-	text-align: center;
-	margin-left: -65px;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: -65px;
 }
-  
+ 
 .project p {
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 350;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-margin-left: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 16px;
 }
 
 .project ul {
@@ -215,7 +221,6 @@ margin-left: 16px;
 #feature-project {
   margin-left: 24px;
   margin-right: 24px;
-  margin-top: 80px;
   margin-top: 80px;
   display: flex;
   flex-direction: column;
@@ -303,10 +308,4 @@ button:active {
 button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
-}
-
-li {
-  list-style-type: none;
-  font-size: 22px;
-  margin-top:32px;
 }
