@@ -265,7 +265,9 @@ img {
   font-family: 'Inter', sans-serif;
 }
 
-.meabout { background-color: #1c1a19; }
+.meabout { 
+  padding: 24px;
+  background-color: #1c1a19; }
 
 .featbut {
   margin-bottom: 24px;
