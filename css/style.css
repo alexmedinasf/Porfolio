@@ -24,7 +24,7 @@ h3 {
 li {
   list-style-type: none;
   font-size: 22px;
-  margin-top:32px;
+  margin-top: 32px;
 }
 
 .name {
@@ -161,7 +161,7 @@ img {
   text-align: center;
   margin-left: -65px;
 }
- 
+
 .project p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
