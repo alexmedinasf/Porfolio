@@ -242,6 +242,9 @@ img {
 
 .abmedesc {
   color: #fff;
+  font-weight: 400px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
 }
 
 .meabout { background-color: #1c1a19; }
