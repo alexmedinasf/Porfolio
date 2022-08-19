@@ -267,9 +267,10 @@ img {
   font-family: 'Inter', sans-serif;
 }
 
-.meabout { 
+.meabout {
   padding: 24px;
-  background-color: #1c1a19; }
+  background-color: #1c1a19; 
+}
 
 .featbut {
   border-color: #ff6b00;
