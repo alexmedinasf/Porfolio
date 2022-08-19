@@ -138,33 +138,40 @@ img {
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background: none;
-  min-height: 386px;
-  color: var(--color-negative);
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ background: none;
+ min-height: 386px;
+ line-height: 24px;
+ background-image: url("../images/projectbackground.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: #fff;
 }
 
-.project h2,
-.project p,
+.project h2 {
+  line-height: 44px;
+	margin-bottom: 12px;
+	text-align: center;
+	margin-left: -65px;
+}
+  
+.project p {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 350;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+margin-left: 16px;
+}
+
 .project ul {
   color: var(--color-negative);
   padding-left: 10%;
   padding-right: 10%;
-}
-
-.project1,
-.project2,
-.project3,
-.project4,
-.project5,
-.project6 {
-  background-image: url("../images/projectbackground.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
 }
 
 .abmehead {
