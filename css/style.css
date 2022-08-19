@@ -235,6 +235,7 @@ img {
 }
 
 .probut {
+  border-color: $ff6b00;
   background-color: #ff6b00;
   color: #fff;
   height: 48px;
@@ -245,6 +246,7 @@ img {
 }
 
 .resubut {
+  border-color: #ff6b00;
   background-color: #ff6b00;
   color: #fff;
   height: 48px;
@@ -270,6 +272,7 @@ img {
   background-color: #1c1a19; }
 
 .featbut {
+  border-color: #ff6b00;
   margin-bottom: 24px;
   background-color: #ff6b00;
   color: #fff;
