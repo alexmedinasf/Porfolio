@@ -213,6 +213,7 @@ margin-left: 16px;
 }
 
 #feature-project {
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -267,6 +268,8 @@ margin-left: 16px;
 }
 
 .myrecent {
+  margin-top: 120px;
+  margin-bottom: 24px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
