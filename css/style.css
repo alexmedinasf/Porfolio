@@ -4,7 +4,27 @@ h2,
 h3,
 p {
   margin: 0;
+  color: var(--color-text);
+}
+
+p,
+ul,
+a {
   font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Crete Round', serif;
+  font-weight: 390;
+}
+
+li {
+  list-style-type: none;
+  font-size: 22px;
+  margin-top: 32px;
 }
 
 .name {
@@ -94,4 +114,206 @@ img {
 
 .intro li {
   height: 20px;
+}
+
+.languages {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 12px;
+}
+
+.languages li {
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  font-weight: 500;
+}
+
+.fs {
+  align-self: flex-start;
+  margin-bottom: 120px;
+}
+
+#projects {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  padding-bottom: 120px;
+}
+
+.project {
+  margin-right: 24px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: none;
+  min-height: 386px;
+  line-height: 24px;
+  background-image: url("../images/projectbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.project h2 {
+  line-height: 44px;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: -65px;
+}
+
+.project p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.project ul {
+  color: var(--color-negative);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.abmehead {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--bgr-negative);
+  background-image: url("../images/aboutme.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto 250px;
+  min-height: 590px;
+  color: #ff6b00;
+}
+
+.abmehead h2 {
+  margin-top: 120px;
+  margin-bottom: 24px;
+  color: var(--color-accent);
+  font-size: 72px;
+  font-family: 'Crete Round', serif;
+}
+
+#aboutme hr {
+  width: 100%;
+}
+
+.features .feature-item {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+  line-height: 2;
+}
+
+#feature-project {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#feature-project h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.probut {
+  border-color: $ff6b00;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  width: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  align-items: center;
+}
+
+.resubut {
+  border-color: #ff6b00;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+}
+
+.abmedesc {
+  color: #fff;
+  font-weight: 400px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.meabout {
+  padding: 24px;
+  background-color: #1c1a19;
+}
+
+.featbut {
+  border-color: #ff6b00;
+  margin-bottom: 24px;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  width: 124px;
+}
+
+.myrecent {
+  margin-top: 120px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.multipost {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background-color: #e05304;
+}
+
+button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
