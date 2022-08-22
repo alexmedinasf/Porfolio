@@ -122,6 +122,8 @@ img {
 
 .bootstrap{
   float: left;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .ruby{
@@ -130,7 +132,6 @@ img {
 
 .languages {	
   margin: 0 auto; 
-  background-color: rgb(162, 196, 196);
   list-style: none;
   padding: 0;
 }
