@@ -117,7 +117,7 @@ img {
 }
 
 .html{
-	float: left;
+  float: left;
 }
 
 .bootstrap{
@@ -129,6 +129,8 @@ img {
 }
 
 .languages {	
+  margin: 0 auto; 
+  background-color: rgb(162, 196, 196);
   list-style: none;
   padding: 0;
 }
