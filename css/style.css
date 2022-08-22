@@ -116,11 +116,23 @@ img {
   height: 20px;
 }
 
-.languages {
+.html{
+	
+
+}
+
+.bootstrap{
+
+}
+
+.ruby{
+
+
+}
+
+.languages {	
   list-style: none;
-  display: flex;
   padding: 0;
-  gap: 12px;
 }
 
 .languages li {
@@ -235,7 +247,7 @@ img {
 }
 
 .probut {
-  border-color: $ff6b00;
+  border-color: #ff6b00;
   background-color: #ff6b00;
   color: #fff;
   height: 48px;
