@@ -202,7 +202,9 @@ img {
 }
 
 .contact-form hr {
-  width: 80%;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 90%;
   border-color: #d8d8d7;
 }
 
