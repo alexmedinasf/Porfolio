@@ -201,6 +201,11 @@ img {
   font-family: 'Crete Round', serif;
 }
 
+.contact-form hr {
+  width: 80%;
+  border-color: #d8d8d7;
+}
+
 #aboutme hr {
   width: 100%;
 }
@@ -355,14 +360,9 @@ form {
   border: none;
   margin-left: 40px;
   margin-right: 40px;
-  }
-
-.contact-form hr {
-  width: 80%;
-  border-color: #d8d8d7;
 }
 
- #message {
+#message {
   font-family: 'Inter', sans-serif;
   left: 12px;
   right: 12px;
