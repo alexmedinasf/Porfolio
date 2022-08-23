@@ -181,7 +181,7 @@ img {
 }
 
 .abmehead {
-	justify-content: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -242,16 +242,16 @@ img {
   text-align: center;
 }
 
-.feature-image{
-	margin-right: 24px;
+.feature-image {
+  margin-right: 24px;
   margin-left: 24px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   min-height: 386px;
   line-height: 24px;
-	max-width: 684px;
-	max-height: 448px;
+  max-width: 684px;
+  max-height: 448px;
 }
 
 .probut {
@@ -352,10 +352,9 @@ button:disabled {
   line-height: 44px;
   margin-left: 24px;
   margin-right: 24px;
-
 }
 
-.content{
+.content {
 	display: flex;
 	flex-direction: column;
 }
