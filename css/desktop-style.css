@@ -8,7 +8,14 @@ main > * {
   margin-left: 895px;
 }
 
-#menu {
+#nav-links a {
+  text-decoration: none;
+}
+
+.name {
+  margin-left: 154px;
+
+.menu {
   display: none;
 }
 
