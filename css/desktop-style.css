@@ -35,7 +35,7 @@ main > * {
   margin-bottom: 30px;
 }
 
-.feature-image{
+.feature-image {
   margin-right: 24px;
   margin-left: 24px;
   display: flex;
@@ -81,7 +81,7 @@ main > * {
   background-size: auto 30%;
 }
 
-.abmehead h2{
+.abmehead h2 {
   margin-left: 142px;
   margin-bottom: 24px;
 }
@@ -141,7 +141,7 @@ main > * {
   max-width: 455px;
   max-height: 256px;
   margin-left: 135px;
-  margin-top: 130px
+  margin-top: 130px;
 }
 
 #contact-form > * {
@@ -150,12 +150,13 @@ main > * {
 
 @media screen and (min-width: 1024px) {
   #projects {
-  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 	
 .about-head {
   background-size: auto 60%;
   }
+
 }
 .deskhr {
   width: 70%;
