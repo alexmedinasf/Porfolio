@@ -106,7 +106,7 @@ border-color: #ff6b00;
   justify-content: space-around;
 }
 
-.featire-item {
+.feature-item {
   text-align: left;
 }
 
@@ -121,11 +121,11 @@ border-color: #ff6b00;
   margin-bottom: 40px;
 }
 
-.my-recent {
+.myrecent {
   flex: 1;
 }
 
-.my-recent hr {
+.myrecent hr {
   flex: 2;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -161,4 +161,14 @@ border-color: #ff6b00;
 .deskhr{
 	width: 70%;
 	margin-top: 110px;
+}
+
+.features{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 130px 0px;
+gap: 152px;
+margin-left: 341px;
+
 }
