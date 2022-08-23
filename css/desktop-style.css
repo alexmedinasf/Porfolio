@@ -31,6 +31,7 @@ main > * {
 
 #feature-project {
   display: flex;
+  flex-direction: row;
   margin-bottom: 30px;
 }
 
@@ -42,8 +43,8 @@ main > * {
   justify-content: flex-end;
   min-height: 386px;
   line-height: 24px;
-	max-width: 684px;
-	max-height: 448px;
+	width: 684px;
+	height: 448px;
 
 }
 
@@ -56,18 +57,48 @@ main > * {
   flex: 1;
 }
 
-.about-head > * {
+.abmehead > * {
   width: 50%;
 }
 
-.about-head > .button {
-  width: auto;
+.resubut{
+border-color: #ff6b00;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+	margin-left: 142px;
 }
 
 .abmehead {
   background-image: url("../images/desktopaboutme.png");
   background-position: center right;
   background-size: auto 30%;
+}
+
+.abmehead h2{
+	margin-left: 142px;
+	margin-bottom: 24px;
+}
+
+.abmedesc{
+	margin-left: 142px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	size: 20px;
+	line-height: 32px;
+	margin-right: 732px;
+	margin-top: -24px;
+	max-width: 566px;
+	max-height: 148px;
+	top: 232px;
 }
 
 .icon-skills {
@@ -126,4 +157,8 @@ main > * {
   .about-head {
     background-size: auto 60%;
   }
+}
+.deskhr{
+	width: 70%;
+	margin-top: 110px;
 }
