@@ -1,0 +1,129 @@
+main > * {
+  padding: 0 7%;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: flex-end;
+	margin-left: 895px;
+}
+
+#menu {
+  display: none;
+}
+
+.intro {
+  background-image: url("../images/desktopbackground.png");
+  background-position: right;
+  background-size: auto 100%;
+}
+
+.intro > * {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.intro > .social-links {
+  position: absolute;
+  inset: auto 20px;
+  flex-direction: column;
+}
+
+#feature-project {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.feature-image{
+	margin-right: 24px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 386px;
+  line-height: 24px;
+	max-width: 684px;
+	max-height: 448px;
+
+}
+
+
+.fs {
+  margin-bottom: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.about-head > * {
+  width: 50%;
+}
+
+.about-head > .button {
+  width: auto;
+}
+
+.abmehead {
+  background-image: url("../images/desktopaboutme.png");
+  background-position: center right;
+  background-size: auto 30%;
+}
+
+.icon-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featire-item {
+  text-align: left;
+}
+
+.project > a {
+  display: block;
+}
+
+.recent-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.my-recent {
+  flex: 1;
+}
+
+.my-recent hr {
+  flex: 2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#contact-form h2 {
+  text-align: left;
+	line-height: 52px;
+	max-width: 455px;
+	max-height: 256px;
+	margin-left: 135px;
+}
+
+#contact-form > * {
+  flex: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  #projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-head {
+    background-size: auto 60%;
+  }
+}
