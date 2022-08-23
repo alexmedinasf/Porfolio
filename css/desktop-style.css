@@ -152,6 +152,7 @@ main > * {
   #projects {
     grid-template-columns: 1fr 1fr 1fr;
   }
+} 
 
   .about-head {
     background-size: auto 60%;
