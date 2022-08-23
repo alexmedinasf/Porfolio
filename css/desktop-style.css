@@ -152,12 +152,11 @@ main > * {
   #projects {
     grid-template-columns: 1fr 1fr 1fr;
   }
-	
-.about-head {
-  background-size: auto 60%;
-  }
 
+  .about-head {
+    background-size: auto 60%;
 }
+
 .deskhr {
   width: 70%;
   margin-top: 110px;
@@ -167,7 +166,7 @@ main > * {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 130px 0px;
+  padding: 130px 0;
   gap: 152px;
   margin-left: 341px;
 }
