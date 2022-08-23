@@ -143,6 +143,7 @@ border-color: #ff6b00;
 	max-width: 455px;
 	max-height: 256px;
 	margin-left: 135px;
+	margin-top: 130px
 }
 
 #contact-form > * {
@@ -171,4 +172,8 @@ padding: 130px 0px;
 gap: 152px;
 margin-left: 341px;
 
+}
+
+#fname{
+	margin-top: 145px;
 }
