@@ -5,7 +5,7 @@ main > * {
 #nav-links {
   display: flex;
   justify-content: flex-end;
-	margin-left: 895px;
+  margin-left: 895px;
 }
 
 #menu {
@@ -36,18 +36,16 @@ main > * {
 }
 
 .feature-image{
-	margin-right: 24px;
+  margin-right: 24px;
   margin-left: 24px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   min-height: 386px;
   line-height: 24px;
-	width: 684px;
-	height: 448px;
-
+  width: 684px;
+  height: 448px;
 }
-
 
 .fs {
   margin-bottom: 0;
@@ -61,8 +59,8 @@ main > * {
   width: 50%;
 }
 
-.resubut{
-border-color: #ff6b00;
+.resubut {
+  border-color: #ff6b00;
   background-color: #ff6b00;
   color: #fff;
   height: 48px;
@@ -74,7 +72,7 @@ border-color: #ff6b00;
   padding: 12px;
   gap: 10px;
   width: 161px;
-	margin-left: 142px;
+  margin-left: 142px;
 }
 
 .abmehead {
@@ -84,21 +82,21 @@ border-color: #ff6b00;
 }
 
 .abmehead h2{
-	margin-left: 142px;
-	margin-bottom: 24px;
+  margin-left: 142px;
+  margin-bottom: 24px;
 }
 
-.abmedesc{
-	margin-left: 142px;
-	font-family: 'Inter', sans-serif;
-	font-weight: 400;
-	size: 20px;
-	line-height: 32px;
-	margin-right: 732px;
-	margin-top: -24px;
-	max-width: 566px;
-	max-height: 148px;
-	top: 232px;
+.abmedesc {
+  margin-left: 142px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  size: 20px;
+  line-height: 32px;
+  margin-right: 732px;
+  margin-top: -24px;
+  max-width: 566px;
+  max-height: 148px;
+  top: 232px;
 }
 
 .icon-skills {
@@ -139,11 +137,11 @@ border-color: #ff6b00;
 
 #contact-form h2 {
   text-align: left;
-	line-height: 52px;
-	max-width: 455px;
-	max-height: 256px;
-	margin-left: 135px;
-	margin-top: 130px
+  line-height: 52px;
+  max-width: 455px;
+  max-height: 256px;
+  margin-left: 135px;
+  margin-top: 130px
 }
 
 #contact-form > * {
@@ -152,28 +150,27 @@ border-color: #ff6b00;
 
 @media screen and (min-width: 1024px) {
   #projects {
-    grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .about-head {
-    background-size: auto 60%;
+	
+.about-head {
+  background-size: auto 60%;
   }
 }
-.deskhr{
-	width: 70%;
-	margin-top: 110px;
+.deskhr {
+  width: 70%;
+  margin-top: 110px;
 }
 
-.features{
-	display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 130px 0px;
-gap: 152px;
-margin-left: 341px;
-
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 130px 0px;
+  gap: 152px;
+  margin-left: 341px;
 }
 
-#fname{
-	margin-top: 145px;
+#fname {
+  margin-top: 145px;
 }
