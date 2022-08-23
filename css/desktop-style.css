@@ -137,12 +137,14 @@ main > * {
 }
 
 #contact-form {
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
 
 #contact-form h2 {
+  background-color: #fff;
   text-align: left;
   line-height: 52px;
   max-width: 455px;
@@ -152,6 +154,7 @@ main > * {
 }
 
 #contact-form > * {
+  background-color: #fff;
   flex: 1;
 }
 
@@ -180,5 +183,12 @@ main > * {
 }
 
 #fname {
+  background-color: #fff;
   margin-top: 145px;
 }
+
+#email {
+  background-color: #fff;
+}
+
+ 
