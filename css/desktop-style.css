@@ -8,6 +8,10 @@ main > * {
   margin-left: 895px;
 }
 
+.project > a {
+  display: block;
+}
+
 #nav-links a {
   text-decoration: none;
 }
@@ -45,7 +49,7 @@ main > * {
 
 .feature-image {
   margin-right: 24px;
-  margin-left: 0px;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -114,10 +118,6 @@ main > * {
 
 .feature-item {
   text-align: left;
-}
-
-.project > a {
-  display: block;
 }
 
 .recent-header {
@@ -191,5 +191,3 @@ main > * {
 #email {
   background-color: #fff;
 }
-
- 
