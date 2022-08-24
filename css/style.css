@@ -181,6 +181,7 @@ img {
 }
 
 .abmehead {
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -239,6 +240,18 @@ img {
 #feature-project h2 {
   font-size: 36px;
   text-align: center;
+}
+
+.feature-image {
+  margin-right: 24px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 386px;
+  line-height: 24px;
+  max-width: 684px;
+  max-height: 448px;
 }
 
 .probut {
@@ -341,9 +354,13 @@ button:disabled {
   margin-right: 24px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 form {
   background-color: #e5e5e5;
-  padding-top: 120px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -390,4 +407,15 @@ form {
   text-align: center;
   width: 124px;
   align-self: center;
+}
+
+#nav-links {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#end > .social-links {
+  justify-content: center;
 }

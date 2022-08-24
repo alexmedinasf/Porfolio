@@ -1,0 +1,193 @@
+main > * {
+  padding: 0 7%;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 895px;
+}
+
+.project > a {
+  display: block;
+}
+
+#nav-links a {
+  text-decoration: none;
+}
+
+.name {
+  margin-left: 154px;
+}
+
+.menu {
+  display: none;
+}
+
+.intro {
+  background-image: url("../images/desktopbackground.png");
+  background-position: right;
+  background-size: auto 100%;
+}
+
+.intro > * {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.intro > .social-links {
+  position: absolute;
+  inset: auto 20px;
+  flex-direction: column;
+}
+
+#feature-project {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.feature-image {
+  margin-right: 24px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 386px;
+  line-height: 24px;
+  width: 684px;
+  height: 448px;
+}
+
+.fs {
+  margin-bottom: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.abmehead > * {
+  width: 50%;
+}
+
+.resubut {
+  border-color: #ff6b00;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  margin-left: 142px;
+}
+
+.abmehead {
+  background-image: url("../images/desktopaboutme.png");
+  background-position: center right;
+  background-size: auto 30%;
+}
+
+.abmehead h2 {
+  margin-left: 142px;
+  margin-bottom: 24px;
+}
+
+.abmedesc {
+  margin-left: 142px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  size: 20px;
+  line-height: 32px;
+  margin-right: 732px;
+  margin-top: -24px;
+  max-width: 566px;
+  max-height: 148px;
+  top: 232px;
+}
+
+.icon-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-item {
+  text-align: left;
+}
+
+.recent-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.myrecent {
+  flex: 1;
+}
+
+.myrecent hr {
+  flex: 2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#contact-form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#contact-form h2 {
+  background-color: #fff;
+  text-align: left;
+  line-height: 52px;
+  max-width: 455px;
+  max-height: 256px;
+  margin-left: 135px;
+  margin-top: 130px;
+}
+
+#contact-form > * {
+  background-color: #fff;
+  flex: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  #projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.about-head {
+  background-size: auto 60%;
+}
+
+.deskhr {
+  width: 70%;
+  margin-top: 110px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 130px 0;
+  gap: 152px;
+  margin-left: 341px;
+}
+
+#fname {
+  background-color: #fff;
+  margin-top: 145px;
+}
+
+#email {
+  background-color: #fff;
+}
