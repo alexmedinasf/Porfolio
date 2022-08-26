@@ -33,6 +33,9 @@ To edit this portfolio:
 - Twitter: [@alexmedinasf](https://twitter.com/alexmedinasf)
 - LinkedIn: [alexmedinasf](https://linkedin.com/in/alexmedinasf)
 
+#### Co-Authors
+
+👤 Mhamad Raad
 
 ## Show your support
 
