@@ -419,3 +419,7 @@ form {
 #end > .social-links {
   justify-content: center;
 }
+
+.icon-skill{
+	margin-right: 15px
+}
