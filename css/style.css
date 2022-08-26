@@ -154,6 +154,7 @@ img {
 }
 
 .project {
+	transition: transform 1s;
   margin-right: 24px;
   margin-left: 24px;
   display: flex;
@@ -167,6 +168,11 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+}
+
+.project:hover {
+	transform: scale(1.1);
+
 }
 
 .project h2 {
@@ -255,6 +261,7 @@ img {
 }
 
 .feature-image {
+	transition: transform 1s;
   margin-right: 24px;
   margin-left: 24px;
   display: flex;
@@ -264,6 +271,10 @@ img {
   line-height: 24px;
   max-width: 684px;
   max-height: 448px;
+}
+
+.feature-image:hover {
+	transform: rotate(30deg);
 }
 
 .probut {
