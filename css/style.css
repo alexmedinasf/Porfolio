@@ -38,6 +38,18 @@ li {
   line-height: 24px;
   top: 48px;
   position: absolute;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
 }
 
 .menu {
@@ -327,6 +339,7 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  cursor: pointer;
 }
 
 button:active {
