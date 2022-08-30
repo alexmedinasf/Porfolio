@@ -164,7 +164,7 @@ img {
   min-height: 386px;
   line-height: 24px;
   background-image: url("../images/projectbackground.png");
-  background-position: center;	
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -287,7 +287,7 @@ img {
 }
 
 .probut:focus {
-	outline: 2.5px solid rgb(0, 0, 0);
+  outline: 2.5px solid rgb(0, 0, 0);
 }
 
 .resubut {
@@ -306,7 +306,7 @@ img {
 }
 
 .resubut:focus {
-	outline: 2.5px solid rgb(255, 255, 255);
+  outline: 2.5px solid rgb(255, 255, 255);
 }
 
 .abmedesc {
@@ -334,7 +334,7 @@ img {
 }
 
 .featbut:focus {
-	outline: 2.5px solid rgb(0, 0, 0);
+  outline: 2.5px solid rgb(0, 0, 0);
 }
 
 .myrecent {
@@ -444,7 +444,7 @@ form {
 }
 
 .formbutton:focus {
-	outline: 2.5px solid rgb(0, 0, 0);
+  outline: 2.5px solid rgb(0, 0, 0);
 }
 
 #nav-links {
