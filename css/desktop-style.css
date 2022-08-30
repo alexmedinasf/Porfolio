@@ -74,7 +74,7 @@ main > * {
 .resubut {
   border-color: #ff6b00;
   background-color: #ff6b00;
-  color: #fff;
+  color: rgb(5, 5, 5);
   height: 48px;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -88,9 +88,10 @@ main > * {
 }
 
 .abmehead {
+
   background-image: url("../images/desktopaboutme.png");
   background-position: center right;
-  background-size: auto 30%;
+  background-size: auto 25%;
 }
 
 .abmehead h2 {
