@@ -178,7 +178,6 @@ img {
   line-height: 44px;
   margin-bottom: 12px;
   text-align: center;
-
 }
 
 .project p {
@@ -273,7 +272,7 @@ img {
 }
 
 .feature-image:hover {
-  transform: rotate(30deg);
+  transform: rotate(10deg);
 }
 
 .probut {
