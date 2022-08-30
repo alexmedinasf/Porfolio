@@ -37,9 +37,12 @@ To edit this portfolio:
 - Twitter: [@alexmedinasf](https://twitter.com/alexmedinasf)
 - LinkedIn: [alexmedinasf](https://linkedin.com/in/alexmedinasf)
 
-#### Co-Authors
+#### Co-Authors - Pair-Programming
 
-👤 Mhamad Raad
+👤 Federico Borzani
+
+- GitHub: [@eserengo](https://github.com/eserengo)
+- E-Mail: (eserengo@gmail.com)
 
 ## Show your support
 
