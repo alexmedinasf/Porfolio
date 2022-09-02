@@ -8,10 +8,6 @@
 - HTML
 - CSS
 
-## Live Demo
-
-[Live Demo](https://alexmedinasf.github.io/Porfolio/)
-
 ## Getting Started
 
 - To acess the portfolio:
