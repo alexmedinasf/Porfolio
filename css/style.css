@@ -91,7 +91,7 @@ img {
   background-position: bottom right;
   background-size: auto 370px;
   height: 620px;
-  color: #fff;
+  color: #ff6b00;
   flex-direction: column;
   justify-content: center;
   padding: 0 10%;
@@ -167,18 +167,17 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .project:hover {
   transform: scale(1.1);
 }
 
-.project h2 {
+.project h3 {
   line-height: 44px;
   margin-bottom: 12px;
   text-align: center;
-  margin-left: -65px;
 }
 
 .project p {
@@ -273,13 +272,13 @@ img {
 }
 
 .feature-image:hover {
-  transform: rotate(30deg);
+  transform: rotate(10deg);
 }
 
 .probut {
   border-color: #ff6b00;
   background-color: #ff6b00;
-  color: #fff;
+  color: rgb(0, 0, 0);
   height: 48px;
   width: auto;
   font-family: 'Roboto', sans-serif;
@@ -287,10 +286,14 @@ img {
   align-items: center;
 }
 
+.probut:focus {
+  outline: 2.5px solid rgb(0, 0, 0);
+}
+
 .resubut {
   border-color: #ff6b00;
   background-color: #ff6b00;
-  color: #fff;
+  color: rgb(0, 0, 0);
   height: 48px;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -302,8 +305,12 @@ img {
   width: 161px;
 }
 
+.resubut:focus {
+  outline: 2.5px solid rgb(255, 255, 255);
+}
+
 .abmedesc {
-  color: #fff;
+  color: #ff6b00;
   font-weight: 400px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
@@ -318,12 +325,16 @@ img {
   border-color: #ff6b00;
   margin-bottom: 24px;
   background-color: #ff6b00;
-  color: #fff;
+  color: rgb(0, 0, 0);
   height: 48px;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   text-align: center;
   width: 124px;
+}
+
+.featbut:focus {
+  outline: 2.5px solid rgb(0, 0, 0);
 }
 
 .myrecent {
@@ -423,13 +434,17 @@ form {
   border-color: #ff6b00;
   margin-bottom: 24px;
   background-color: #ff6b00;
-  color: #fff;
+  color: rgb(0, 0, 0);
   height: 48px;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   text-align: center;
   width: 124px;
   align-self: center;
+}
+
+.formbutton:focus {
+  outline: 2.5px solid rgb(0, 0, 0);
 }
 
 #nav-links {
