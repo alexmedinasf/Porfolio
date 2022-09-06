@@ -60,7 +60,11 @@ li {
   height: 20px;
   right: 24px;
   top: 48px;
-  z-index: 997;
+  z-index: 1000;
+}
+
+.menu-burger-menu.active {
+  opacity: 0;
 }
 
 .close-menu {
@@ -74,6 +78,11 @@ li {
   top: 18px;
   z-index: 999;
 	font-size: 18px;
+  display: none;
+}
+
+.close-menu.active {
+  display: block;
 }
 
 .mobile-menu-nav {
@@ -86,7 +95,12 @@ li {
   height: 100vh;
   margin-top: 0;
   z-index: 998;
-	
+  display: none;
+  transition: 1s ease all;
+}
+
+.mobile-menu-nav.active {
+  display: block;
 }
 
 #mobile-nav-links a {
@@ -100,10 +114,10 @@ li {
 }
 
 #mobile-nav-links hr {
-width: 80%;
-left: 0px;
-right: 0px;
-bottom: 0px;
+  width: 80%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 #nav.active {
