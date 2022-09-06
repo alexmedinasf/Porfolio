@@ -24,6 +24,10 @@ main > * {
   display: none;
 }
 
+.menu-burger-menu {
+	opacity: 0;
+}
+
 .intro {
   background-image: url("../images/desktopbackground.png");
   background-position: right;
