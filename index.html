@@ -12,9 +12,21 @@
 	<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="menu-bar">
+	<nav id="nav">
         <button type="button" class="name"> Alexandre Ferreira </button>
-        <button type="button" class="menu"> <img src="./images/menu.png" alt="menu button"> </button>
+        <button type="button" id="btn-mobile" class="menu-burger-menu"> <img src="./images/menu.png" alt="menu button"> </button>
+				<button type="button" class="close-menu">X</button>
+
+		<!---HERE START THE MENU NAV LINKS OF MOBILE VERSION-->
+
+			<ul id="mobile-nav-links" class="mobile-menu-nav">
+				<li><a href="#feature-project">Portfolio</a></li><hr>
+				<li><a href="#abme">About me</a></li><hr>
+				<li><a href="#contact-form">Contact</a></li><hr>
+			</ul>
+		
+		<!---HERE ENDS THE MENU NAV LINKS OF MOBILE VERSION-->
+
 			<ul id="nav-links">
 				<li><a href="#feature-project">Portfolio</a></li>
 				<li><a href="#abme">About me</a></li>
@@ -33,7 +45,7 @@
             <li><a href="https://www.twitter.com/alexmedinasf"><img src="./images/twitter.png" alt="Twitter link"></a></li>
             <li><a href="#"><img src="./images/m.png" alt="E-mail link"></a></li>
 			</ul>
-			</section>
+	</section>
 			<main>
 				<div class="recent-header">
 				<div><h2 class="myrecent">My Recent Works</h2></div><hr class="deskhr">
@@ -174,5 +186,6 @@
 					</form>
 			</section>
 			</main>
+			<script src="js/index_dom.js"></script>
 </body>
 </html>
