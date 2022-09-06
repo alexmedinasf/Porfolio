@@ -68,7 +68,7 @@ li {
 }
 
 .close-menu {
-	color: #fff;
+  color: #fff;
   background-color: #3c3a39;
   border: none;
   position: absolute;
@@ -127,10 +127,6 @@ li {
   bottom: 0;
 }
 
-#nav.active {
-
-}
-
 img {
   max-width: 100%;
   height: 100%;
@@ -143,7 +139,6 @@ img {
   height: 90px;
   align-items: center;
   position: fixed;
-
   width: 100%;
 }
 
