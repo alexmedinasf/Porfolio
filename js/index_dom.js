@@ -11,12 +11,12 @@ hamburgerBtn.addEventListener('click', () => {
 
 xBtn.addEventListener('click', () => {
   navMenuMobile.classList.remove('active');
-  hamburgerBtn.classList.remove('active');	
+  hamburgerBtn.classList.remove('active');
   xBtn.classList.remove('active');
 });
 
 navLink.forEach((element) => element.addEventListener('click', () => {
   navMenuMobile.classList.remove('active');
-  hamburgerBtn.classList.remove('active');	
+  hamburgerBtn.classList.remove('active');
   xBtn.classList.remove('active');
 }));
