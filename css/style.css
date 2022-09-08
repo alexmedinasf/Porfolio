@@ -140,6 +140,7 @@ img {
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 #nav a {
@@ -235,7 +236,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
 }
 
 .project:hover {
@@ -521,4 +523,117 @@ form {
 
 .icon-skill {
   margin-right: 15px;
+}
+
+.project-modal {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  max-width: 100%;
+  height: 95vh;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.modal-container {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 90%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  height: 100%;
+  display: none;
+}
+
+.modal-close {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+  float: right;
+  height: 40px;
+  margin-top: 115px;
+  opacity: 0.33;
+  transition: 0.5s;
+  width: 40px;
+}
+
+.project-modal #project-name {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.project-modal .languages-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-modal .languages-list li {
+  background: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #dfe1e6;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+}
+
+#modal-description {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 10px;
+}
+
+#live-link,
+#source-link {
+  width: 134px;
+  color: #fff;
+  padding: 16px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+#project-image {
+  height: 10%;
+  width: 100%;
+}
+
+.modal-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-grid .descp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-group {
+  display: flex;
+  gap: 20px;
 }
