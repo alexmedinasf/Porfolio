@@ -644,8 +644,8 @@ form {
 }
 
 #error-mail {
-	text-align: center;
-	margin-bottom: -150px;
+  text-align: center;
+  margin-bottom: -150px;
   color: red;
   font-size: smaller;
 }
