@@ -637,3 +637,15 @@ form {
   display: flex;
   gap: 20px;
 }
+
+#error {
+  color: red;
+  width: 200px;
+}
+
+#error-mail {
+  text-align: center;
+  margin-bottom: -150px;
+  color: red;
+  font-size: smaller;
+}
