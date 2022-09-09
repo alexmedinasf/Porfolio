@@ -440,6 +440,7 @@ button:disabled {
 }
 
 .form-head {
+	margin-bottom: 100px;
   background-color: #e5e5e5;
   color: #172b4d;
   font-family: 'Inter', sans-serif;
