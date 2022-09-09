@@ -200,3 +200,34 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// PRESERVING DATA  //
+
+const setInput = () => {
+  const retrive = localStorage.getItem('formData');
+  const retrivedDetails = JSON.parse(retrive);
+  document.getElementById('fname').value = retrivedDetails.fullName;
+  document.getElementById('email').value = retrivedDetails.email;
+  document.getElementById('message').value = retrivedDetails.message;
+};
+
+const populateStorage = () => {
+  const formData = {
+    fullName: document.getElementById('fname').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+  setInput();
+};
+
+if (!localStorage.getItem('formData')) {
+  populateStorage();
+} else {
+  setInput();
+}
+
+document.getElementById('fname').onchange = populateStorage;
+document.getElementById('email').onchange = populateStorage;
+document.getElementById('message').onchange = populateStorage;
