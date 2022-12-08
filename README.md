@@ -37,20 +37,15 @@ To edit this portfolio:
 - Twitter: [@alexmedinasf](https://twitter.com/alexmedinasf)
 - LinkedIn: [alexmedinasf](https://linkedin.com/in/alexmedinasf)
 
-#### Co-Authors - Pair-Programming
-
-👤 Federico Borzani
-
-- GitHub: [@eserengo](https://github.com/eserengo)
-- E-Mail: (eserengo@gmail.com)
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Huge thanks to Microverse for the opportunity to learn with them!
+ - All my partners that helped me on this proect.
+
+ - Huge thanks to Microverse for the opportunity to learn with them!
 
 ## 📝 License
 
